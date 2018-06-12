@@ -1,7 +1,4 @@
 <launch>
-  <arg name="scan_topic" default="/scan" />
-  <arg name="odom_topic" default="/odom" />
-
   <node pkg="rviz" type="rviz" name="rviz" />
 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
